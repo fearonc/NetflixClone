@@ -31,7 +31,7 @@ body {
 .banner {
   background: url('Assets/Test banner.jpg') no-repeat center center/cover;
   color: white;
-  height: 60vh;
+  height: 40vh;
   display: flex;
   align-items: flex-end;
   padding: 2em;
@@ -70,11 +70,11 @@ body {
   display: flex;
   overflow-x: auto;
   gap: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .poster {
-  max-height: 120px;
+  max-height: 1000px;
   transition: transform 0.3s, opacity 0.3s;
   cursor: pointer;
   border-radius: 4px;
